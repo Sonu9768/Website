@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PixelPulse | Ecommerce Website Design</title>
+    <link rel="stylesheet" href="Style.css">
+
+</head>
+<body>
+    <header id="header">
+        
+        
+        <a href="#"><img src="img/logo/final logo.png" width="100px" class="logo" alt="logo"></a>
+
+  <!---clock-->
+
+
+  <script src="script.js"></script>
+
+  <style>
+  #clock {
+      width: 200px;
+      height: 60px;
+      border-radius: 8px;
+  
+      background: radial-gradient(circle, #676767, #000000);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: em;
+      font: 1.6em sans-serif;
+      color: #fff;
+  
+      letter-spacing: 4px;
+      box-shadow: 0 0 30px rgba(58, 58, 58, 0.5);
+      animation: pulse 3s infinite alternate, glow 3s infinite alternate;
+  
+  }
+  
+  @keyframes pulse {
+      from {
+          transform: scale(0.57);
+      }
+      to {
+          transform: scale(0.6);
+      }
+  }
+</style>
+
+
+
+
+<!--clock end-->
+        
+<div id="clock">
+
+    <script>
+        // Function to update the clock time
+        function updateClock() {
+            // Get the current time in Nepal (NPT)
+            const nepalTime = new Date().toLocaleString('en-US', { timeZone: 'Asia/Kathmandu' });
+
+            // Format the time in hours, minutes, and seconds
+            const options = { hour: 'numeric', minute: 'numeric', second: 'numeric' };
+            const formattedTime = new Date(nepalTime).toLocaleTimeString('en-US', options);
+
+            // Update the clock display
+            document.getElementById('clock').textContent = formattedTime;
+        }
+
+        // Update the clock every second
+        setInterval(updateClock, 1000);
+
+        // Initial clock update
+        updateClock();
+    </script>
+    </div>
+
+    
+<!--clock end-->
+
+        <div>
+            <nav id="navbar">
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a class="active" href="about.html">About</a></li>
+            </nav>
+        </div>
+        
+    </header>
+
+
+    <section id="product-header" class="about-header">
+       <h2>#Know Us</h2>
+
+       <p>Read About Technology used in our Daily Life!</p>
+    </div>
+      
+    </section>
+
+    <!----Contact us-->
+
+    <section id="form-all">
+        <div class="containerrss" >
+            <section id>
+                <form name="feedbackForm" >
+                  <span>LEAVE A MESSAGE</span>
+                  <h2>We love to hear from you</h2>
+                    <div class="id">
+                        <input style="width: 58rem;
+                        padding: 12px 15px;
+                        outline: none;
+                        margin-bottom: 20px;
+                        border: 1px solid #ff523b;
+                        border-radius: 5px;" type="text" placeholder="Name " name="name"> 
+                            
+                    </div>
+                    
+                    <div class="id">
+                        <input style="width: 58rem;
+                        padding: 12px 15px;
+                        outline: none;
+                        margin-bottom: 20px;
+                        border: 1px solid #ff523b;
+                        border-radius: 5px;" type="text" placeholder="Email" name="Email">
+                       
+                    </div> <br>
+        
+                    <div class="id">
+                      <input style="width: 58rem;
+                      padding: 12px 15px;
+                      outline: none;
+                      margin-bottom: 20px;
+                      border: 1px solid #ff523b;
+                      border-radius: 5px;" type="text" placeholder="Subject" name="Subject">
+            
+                  </div> <br>
+                    
+                    <textarea style="width: 58rem;
+                    padding: 12px 15px;
+                    outline: none;
+                    margin-bottom: 20px;
+                    border: 1px solid #ff523b;
+                    border-radius: 5px;" name="comment" id="" cols="50" rows="20" placeholder="Your Massage.." ></textarea>
+                    
+                    <p> <button style="display: inline-block;
+                        background: #ff523b;
+                        color: #fff;
+                        height: 50px;
+                        padding: 8px 30px;
+                        margin: 30px 0;
+                        border-radius: 10px;
+                        transition:0.3s;
+                        cursor: pointer;
+                        "  type="submit" onclick="Send()" class="c" >Submit!</button></p>
+                </form>
+            </section>
+          </div>
+        
+        <div class="Box">
+            <h2 class="creater">Creators</h2>
+            <div class="members" onclick="window.location.href='sonucv.html';">
+
+                <div>
+                <img src="img/members/sonu.jpg" alt="">
+                <p><span>Sonu Kumar</span>Group Leader<br> Phone: +977-9824288958 <br>  London Met ID:- 23047418</p>
+            </div>
+        </div>
+
+        <div class="members" onclick="window.location.href='binnicv.html';">
+            <div>
+                <img src="img/members/binni.jpg" alt="binni">
+                <p><span>Binni Shrestha</span>Group Member<br> +977-9761744190 <br>  London Met ID:- 23047391</p>
+            </div>
+        </div>
+
+        <div class="members" onclick="window.location.href='manishcv.html';">
+            <div>
+                <img src="img/members/Manish.jpg" alt="manish">
+                <p><span>JUNIOUR MANISH SHRESTHA</span>Group Member<br> Phone: +977-9803409255 <br>  London Met ID:- 23047448</p>
+            </div>
+        </div>
+
+        <div class="members" onclick="window.location.href='avinaycv.html';">
+            <div>
+                <img src="img/members/Avinay.jpg" alt="avinay">
+                <p><span>AVINAY KUMAR YADAV</span>Group Member<br> Phone: +977-9807734459 <br>  London Met ID:- 23047554</p>
+            </div>
+        </div>
+    </div>
+    </section>
+
+<section id="newsletter" class="section-p1 section-m1">
+<div class="newstext">
+    <h4>Sign Up For Newsletters</h4>
+    <p>Get E-mail updates about our latest shop and special offers <span>special offers.</span></p>
+</div>
+<div class="form">
+    <input type="text" placeholder="Your email address">
+    <button class="normal" onclick="showThankYouMessage()">Sign Up</button>
+    </div>
+</section>
+
+<!-----footer-->
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone</p>
+                <div class="app-logo">
+                    <img src="img/pay/app.jpg" alt="">
+                    <img src="img/pay/play.jpg" alt="">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="img/logo/final logo.png">
+                <p>Empowering Your Ideas, One Print at a Time – Unleashing Possibilities for Everyone!
+                </p>
+
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>YouTube</li>
+                </ul>
+            </div>
+            <div class="col install">
+                <p>Secured Payment Gateways</p>
+                <img src="img/pay/pay.png">
+            </div>
+        </div>
+        
+        <hr>
+        <p class="copyright">&copy;Copyright 2024 - SONU KUMAR</p>
+
+    </div>
+</footer>
+
+    
+
+<script>
+    function Send(){
+        var name = document.forms["feedbackForm"]["name"].value; //Name is the variable and  The form's name can be used to identify and access it through JavaScript.//
+        var Email = document.forms["feedbackForm"]["Email"].value;
+        var Subject = document.forms["feedbackForm"]["Subject"].value;
+        var comment = document.forms["feedbackForm"]["comment"].value;
+
+        
+        if (name=="" || Email=="" || Subject=="" || comment=="") {
+            alert("Oops! Please fill the Form.");
+        }
+        else{
+            alert("Thank you for Loving Us!")
+        }
+    }
+</script>
+</body>
+</html>

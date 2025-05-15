@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PixelPulse | Ecommerce Website Design</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <header id="header">
+        
+        
+        <a href="#"><img src="img/logo/final logo.png" width="100px" class="logo" alt="logo"></a>
+
+<!---clock-->
+
+<script src="script.js"></script>
+
+<style>
+#clock {
+    width: 200px;
+    height: 60px;
+    border-radius: 8px;
+
+    background: radial-gradient(circle, #676767, #000000);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: em;
+    font: 1.6em sans-serif;
+    color: #fff;
+
+    letter-spacing: 4px;
+    box-shadow: 0 0 30px rgba(58, 58, 58, 0.5);
+    animation: pulse 3s infinite alternate, glow 3s infinite alternate;
+
+}
+
+@keyframes pulse {
+    from {
+        transform: scale(0.57);
+    }
+    to {
+        transform: scale(0.6);
+    }
+}
+</style>
+
+
+
+
+<!--clock end-->
+        
+<div id="clock">
+
+    <script>
+        // Function to update the clock time
+        function updateClock() {
+            // Get the current time in Nepal (NPT)
+            const nepalTime = new Date().toLocaleString('en-US', { timeZone: 'Asia/Kathmandu' });
+
+            // Format the time in hours, minutes, and seconds
+            const options = { hour: 'numeric', minute: 'numeric', second: 'numeric' };
+            const formattedTime = new Date(nepalTime).toLocaleTimeString('en-US', options);
+
+            // Update the clock display
+            document.getElementById('clock').textContent = formattedTime;
+        }
+
+        // Update the clock every second
+        setInterval(updateClock, 1000);
+
+        // Initial clock update
+        updateClock();
+    </script>
+    </div>
+
+    
+<!--clock end-->
+
+        <div>
+            <nav id="navbar">
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a class="active" href="blog.html">Blog</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="about.html">About</a></li>
+            </nav>
+        </div>
+        
+    </header>
+
+
+    <section id="product-header" class="blog-header">
+       <h2>#Read More</h2>
+
+       <p>Read About Technology used in our Daily Life!</p>
+    </div>
+      
+    </section>
+
+<section id="blog">
+    <div class="blog-box">
+        <div class="blog img">
+            <img src="img/blog/1.jpg">
+        </div>
+        <div class="blog-details">
+            <h4> About Technology</h4>
+            <p>Greetings from the ever-evolving realm of technology,
+                 where creativity has no limits. We set out on a trip 
+                 to investigate how technology affects both our
+                  personal and professional life in this series.
+
+                Important Technological Advancements:
+                 We'll explore the innovations influencing
+                  our digital world, from artificial intelligence 
+                  to the Internet of Things. Find out how 
+                  these developments are ushering in a new age and reshaping industry.
+                
+                Function of Technology in Different Sectors: 
+                Examine the diverse applications of technology 
+                in fields including education, healthcare, and 
+                finance. See how innovative ideas may generate positive
+                 change and have a transformational influence.
+                 Teaser for Both Good and Bad Effects:
+                 Our next steps as we make our way through the 
+                 world of technology include closely examining 
+                 both its advantages and disadvantages. Prepare to
+                  explore the many factors that contribute to the
+                   formation of our technological environment.
+                </p>
+        </div>
+    </div>
+
+    <div class="blog-box">
+        <div class="blog img">
+            <img src="img/blog/2.jpg">
+        </div>
+        <div class="blog-details">
+            <h4>Positive Impact</h4>
+            <p>Technology has completely changed the printing 
+                industry, with many beneficial effects that have
+                 improved productivity and simplified processes. 
+                 The development of digital printing technologies, 
+                 which have supplanted conventional processes and 
+                 enabled faster and more economical manufacturing,
+                  is one important benefit. Modern printers are fast
+                   and precise, allowing businesses to fulfill deadlines
+                    and provide clients with personalized solutions.
+                     Furthermore, automated procedures have enhanced 
+                     production cycles by lowering mistakes and saving waste,
+                      such as sophisticated scheduling software and integrated 
+                      workflows. The incorporation of cloud-based solutions
+                       has also enabled remote access to printing operations,
+                        promoting cross-location team cooperation. Increased
+                         customer satisfaction has been ensured via increased client
+                          communication made possible by enhanced connection,
+                           which allows for real-time updates and feedback. 
+                
+                </p>
+        </div>
+    </div>
+
+    <div class="blog-box">
+        <div class="blog img">
+            <img src="img/blog/3.jpg">
+        </div>
+        <div class="blog-details">
+            <h4> Negative Impact</h4>
+            <p>Technological developments have certainly altered many
+                 sectors in the fast-paced world of business,
+                  but the printer industry has not been immune to 
+                  detrimental effects. One significant drawback is 
+                  the rapid advancement of printing technology, which 
+                  makes equipment outdated far too quickly. organizations
+                   are forced to upgrade frequently and expensively due to 
+                   this quick obsolescence, which can be especially difficult 
+                   financially for small organizations. Furthermore, the market
+                    for conventional printers has been impacted by the decline in
+                     demand for printed documents brought about by the
+                      widespread digitization. The increasing use of electronic 
+                      documents and paperless workplaces have reduced the 
+                      demand for physical printouts, which has limited the
+                       development opportunities for enterprises that primarily
+                        deal with printers. Consequently, businesses operating 
+                        in the printer e-commerce space encounter a significant obstacle.
+                </p>
+        </div>
+    </div>
+
+    <div class="blog-box">
+        <div class="blog img">
+            <img src="img/blog/4.jpg">
+        </div>
+        <div class="blog-details">
+            <h4> Impact of Technology on daily life and business/printing business</h4>
+            <p>The printing industry is faced with a 
+                dilemma as a result of technology's 
+                significant influence on daily life and business.
+                 On the one hand, improvements in technology
+                  have made company processes more efficient. 
+                  On the other hand, the printing industry is
+                   facing challenges due to the decline in demand
+                    for traditional printed products brought
+                     about by the widespread use of digital 
+                     communication and the transition to paperless workplaces.
+                      Printing enterprises are further burdened by 
+                      the quick rate of technical evolution, which makes 
+                      regular expenditures in updated equipment necessary
+                       to maintain competitiveness. Smaller businesses
+                        are particularly affected by this burden.
+                         Notwithstanding these obstacles, technology 
+                         presents chances for innovation. Strategic
+                          positioning of printing enterprises can be
+                           achieved via embracing digital printing,
+                            investigating specialized markets, and offering 
+                            customized services.
+                </p>
+        </div>
+    </div>
+
+    <div class="blog-box">
+        <div class="blog img">
+            <img src="img/blog/5.webp">
+        </div>
+        <div class="blog-details">
+            <h4> Overall Conclusion</h4>
+            <p>We have explored the maze of technology 
+                and uncovered the complex story its ever
+                 changing threads have woven, as the curtains 
+                 close on this magnificent technical extravaganza.
+                  Embrace the brush of invention, adjust to the strokes
+                   of development, and dance through the ever-changing hues
+                    of tomorrow in a world painted in pixels. Please feel free
+                     to share your ideas and experiences in the lively 
+                     comment area below. Together, let's start a 
+                     conversation that reverberates through the virtual 
+                     hallways of our shared history. 
+                     This is not where the adventure ends.
+                      Watch this space for more captivating stories,
+                       exciting discoveries, and anecdotes from the digital 
+                       frontier. The voyage ahead is sure to be remarkable 
+                       as we move on to the next chapter.
+                </p>
+        </div>
+    </div>
+</section>
+
+<section id="newsletter" class="section-p1 section-m1">
+<div class="newstext">
+    <h4>Sign Up For Newsletters</h4>
+    <p>Get E-mail updates about our latest shop and special offers <span>special offers.</span></p>
+</div>
+<div class="form">
+    <input type="text" placeholder="Your email address">
+    <button class="normal" onclick="showThankYouMessage()">Sign Up</button>
+    </div>
+</section>
+<!-----footer-->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone</p>
+                <div class="app-logo">
+                    <img src="img/pay/app.jpg" alt="">
+                    <img src="img/pay/play.jpg" alt="">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="img/logo/final logo.png">
+                <p>Empowering Your Ideas, One Print at a Time – Unleashing Possibilities for Everyone!
+                </p>
+
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>YouTube</li>
+                </ul>
+            </div>
+            <div class="col install">
+                <p>Secured Payment Gateways</p>
+                <img src="img/pay/pay.png">
+            </div>
+        </div>
+        
+        <hr>
+        <p class="copyright">&copy;Copyright 2024 - SONU KUMAR</p>
+
+    </div>
+</footer>
+
+    
+
+    <script src="script.js" ></script>
+</body>
+</html>

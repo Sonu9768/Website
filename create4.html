@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PixelPulse | Ecommerce Website Design</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <header id="header">
+        
+        
+        <a href="#"><img src="img/logo/final logo.png" width="100px" class="logo" alt="logo"></a>
+
+<!---clock-->
+
+<script src="script.js"></script>
+
+<style>
+#clock {
+    width: 200px;
+    height: 60px;
+    border-radius: 8px;
+
+    background: radial-gradient(circle, #676767, #000000);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: em;
+    font: 1.6em sans-serif;
+    color: #fff;
+
+    letter-spacing: 4px;
+    box-shadow: 0 0 30px rgba(58, 58, 58, 0.5);
+    animation: pulse 3s infinite alternate, glow 3s infinite alternate;
+
+}
+
+@keyframes pulse {
+    from {
+        transform: scale(0.57);
+    }
+    to {
+        transform: scale(0.6);
+    }
+}
+</style>
+
+        
+<div id="clock">
+
+    <script>
+        // Function to update the clock time
+        function updateClock() {
+            // Get the current time in Nepal (NPT)
+            const nepalTime = new Date().toLocaleString('en-US', { timeZone: 'Asia/Kathmandu' });
+
+            // Format the time in hours, minutes, and seconds
+            const options = { hour: 'numeric', minute: 'numeric', second: 'numeric' };
+            const formattedTime = new Date(nepalTime).toLocaleTimeString('en-US', options);
+
+            // Update the clock display
+            document.getElementById('clock').textContent = formattedTime;
+        }
+
+        // Update the clock every second
+        setInterval(updateClock, 1000);
+
+        // Initial clock update
+        updateClock();
+    </script>
+    </div>
+
+    
+<!--clock end-->
+
+        <div>
+            <nav id="navbar">
+                <li><a href="Home.html">Home</a></li>
+                <li><a class="active" href="product.html">Product</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="about.html">About</a></li>
+            </nav>
+        </div>
+        
+    </header>
+  
+    
+
+<!----Shop start-->
+<section id="blogs">
+    <div class="blogs-box">
+        <div class="blogs img">
+            <img src="img/product details img/4.1.jpg">
+        </div>
+        <div class="blogs-details">
+            
+            <h4>Epson EcoTank ET-2800 Wireless Color<br> All-in-One Cartridge-Free Supertank <br>Printer with Scan and Copy</h4>
+            <p>The Epson ET-2800 White is a reliable inkjet printer
+                featuring<br> Wi-Fi and USB connectivity for versatile
+                 printing options.<br> Noteworthy is its refillable ink tank
+                  system, providing cost-effective<br> and eco-friendly printing.
+                   The printer supports mobile printing,<br> enhancing accessibility
+                    from various devices. With a sleek white<br> design, it 
+                    adds a touch of elegance to your workspace.
+                </p>
+        </div>
+        <h2 style="margin-top:-30px; color: #fb6018; font-size: xx-large; margin-left: -150px;">Npr-22999</h2>
+        <input style="margin-top: -60px; width: 50px; height: 27px; margin-left: -120px;
+        font-size: 20px; margin-top: 100px; padding-left: 10px;"  type="number" value="1">
+        <div class="order-detailss">
+            <button  class="normal">Order</button>
+        </div>
+    </div>
+    
+    </section>
+    
+    <br>
+    
+    <hr>
+
+
+<!---end-->
+
+<section id="product1" class="section-p1">
+    <h2 class="underline">Featured Products</h2>
+    <div class="pro-container">
+        <div class="pro" onclick="window.location.href='Sproduct.html';">
+            <img src="img/Product img/1.jpg" alt="Product">
+            <div class="des">
+                <span>Canon</span>
+                <h5>Canon PIXMA MG2470 All-in-One Inkjet Printer</h5>
+                <div class="star">
+                    <img src="img/star/tl (4).png" alt="rating">
+                </div>
+                <h4>Npr-12999</h4>
+            </div>
+        <div class="shop">
+            <img src="img/star/shop.png">
+        </div>
+    </div>
+    <div class="pro-container">
+        <div class="pro" onclick="window.location.href='Sproduct2.html';">
+            <img src="img/Product img/2.jpg" alt="Product">
+            <div class="des">
+                <span>Canon</span>
+                <h5>Canon Maxify MB5470 All in One Inkjet Printer (Black)</h5>
+                <div class="star">
+                    <img src="img/star/tl (5).png" alt="rating">
+                </div>
+                <h4>Npr-62999</h4>
+        </div>
+        <div class="shop">
+            <img src="img/star/shop.png">
+        </div>
+    
+        </div>
+     <div class="pro-container">
+        <div class="pro" onclick="window.location.href='Sproduct3.html';">
+            <img src="img/Product img/3.jpg" alt="Product">
+            <div class="des">
+                <span>Canon</span>
+                <h5>Canon PIXMA MG2470 All-in-One Inkjet Printer</h5>
+                <div class="star">
+                    <img src="img/star/tl (5).png" alt="rating">
+                </div>
+                <h4>Npr-22999</h4>
+        </div>
+        <div class="shop">
+            <img src="img/star/shop.png">
+        </div>
+        
+     </div>
+     <div class="pro-container">
+        <div class="pro" onclick="window.location.href='Sproduct4.html';">
+            <img src="img/Product img/4.jpg" alt="Product">
+            <div class="des">
+                <span>Canon</span>
+                <h5>Canon PIXMA MG2470 All-in-One Inkjet Printer</h5>
+                <div class="star">
+                    <img src="img/star/tl (4).png" alt="rating">
+                </div>
+                <h4>Npr-19999</h4>
+        </div>
+        <div class="shop">
+            <img src="img/star/shop.png">
+        </div>
+        
+    </div>
+    </div>
+        
+    
+    </section>
+
+
+<section id="newsletter" class="section-p1 section-m1">
+<div class="newstext">
+    <h4>Sign Up For Newsletters</h4>
+    <p>Get E-mail updates about our latest shop and special offers <span>special offers.</span></p>
+</div>
+<div class="form">
+    <input type="text" placeholder="Your email address">
+    <button class="normal" onclick="showThankYouMessage()">Sign Up</button>
+    </div>
+</section>
+<!-----footer-->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone</p>
+                <div class="app-logo">
+                    <img src="img/pay/app.jpg" alt="">
+                    <img src="img/pay/play.jpg" alt="">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="img/logo/final logo.png">
+                <p>Empowering Your Ideas, One Print at a Time – Unleashing Possibilities for Everyone!
+                </p>
+
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>YouTube</li>
+                </ul>
+            </div>
+            <div class="col install">
+                <p>Secured Payment Gateways</p>
+                <img src="img/pay/pay.png">
+            </div>
+        </div>
+        
+        <hr>
+        <p class="copyright">&copy;Copyright 2024 - SONU KUMAR</p>
+
+    </div>
+</footer>
+
+    
+
+    <script src="script.js" ></script>
+</body>
+</html>
